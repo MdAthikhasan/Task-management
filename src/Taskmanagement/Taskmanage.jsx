@@ -69,9 +69,22 @@ const Taskmanage = () => {
   return (
     <div>
       <div
-        style={{ background: "#4CB9E7" }}
+        style={{ background: "#4CB9E7", position: "relative" }}
         className=" flex justify-center items-center bg-gray-300 min-h-screen"
       >
+        <div
+          style={{
+            padding: "20px",
+            fontWeight: "700",
+            fontSize: "35px",
+            position: "absolute",
+            top: "16%",
+            background: "#FFECD6 ",
+            borderRadius:'8px'
+          }}
+        >
+          <h1>Task Management</h1>
+        </div>
         <div className="h-auto md:w-1/2 px-2 w-96 bg-white rounded-lg">
           <div className="input_text relative">
             <input
